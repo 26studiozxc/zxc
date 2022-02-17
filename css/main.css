@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/desktop1/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3B37FF;
+    border-radius: 10px;
+    border: 4px solid #121153;
+}
+
+::-webkit-scrollbar-track {
+    background: #121153;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1125px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background: #0B0A36;
+    padding: 22.5px 0;
+    z-index: 9999;
+    top: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__link {
+    margin-left: 55px;
+}
+
+.menu__link .menu__item {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.menu__link .menu__item:hover {
+    color: rgb(175, 175, 175);
+}
+
+.btn {
+    margin-left: 30px;
+    padding: 8px 26px;
+    background: #3B37FF;
+    border-radius: 2.5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #706dff;
+}
+
+.menu__link-right .menu__item {
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.main {
+    margin-bottom: 135px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+
+}
+
+.title__word {
+    width: 500px;
+}
+
+.title__text {
+    font-weight: 600;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.subtitle {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+    color: #BADEFF;
+}
+
+.wave {
+    display: block;
+    position: absolute;
+    left: -15px;
+    top: 690px;
+    z-index: -1;
+    max-width: 100vw;
+    height: 251px;
+    overflow-y: hidden;
+}
+
+/* 251 */
+/* 881 */
+
+.wave_reverce {
+    display: block;
+    position: absolute;
+    left: -15px;
+    top: 941px;
+    z-index: -1;
+    max-width: 100vw;
+    height: 374.88px;
+    overflow-y: hidden;
+}
+
+.contact__title {
+    display: block;
+    text-align: center;
+    margin-top: 250px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+    margin-bottom: 90px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact__text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.textHidden {
+    display: block;
+    margin-top: 15px;
+    color: #BADEFF;
+}
+
+.contact__subtitle {
+    display: block;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.developers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.developers__text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #BADEFF;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: #080624;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.footer__text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #7E7E7E;
+    text-align: center;
+    margin-right: 15px;
+}
+.footer__detail {
+    margin-right: 100px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__img {
+    width: 26px;
+    height: 26px;
+    background-size: cover;
+}
+.social__img:nth-child(1) {
+    background-image: url('../icons/desktop1/vk.svg') ;
+    margin-right: 10px;
+}
+.social__img:nth-child(2) {
+    background-image: url('../icons/desktop1/inst.svg') ;
+}
+
+
+/* 
+.social a {
+    margin-right: 10px;
+    
+} */
+
+/* .social__img {
+    width: 26px;
+}
+ */
